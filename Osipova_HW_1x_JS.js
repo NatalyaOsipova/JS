@@ -122,16 +122,3 @@ checkAge(agePrompt)
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
