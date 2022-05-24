@@ -24,12 +24,12 @@ const checkAge1 = function(age) {
     }
 }
 
-checkAge1(17)
-checkAge1(18)
-checkAge1(61)
-checkAge1("twenty")
+checkAge1(17);
+checkAge1(18);
+checkAge1(61);
+checkAge1("twenty");
 
-console.log("-----------------------------")
+console.log("-----------------------------");
 
 
 // Задание 2*:
@@ -53,13 +53,13 @@ const checkAge2 = function(age) {
     }
 }
 
-checkAge2(17)
-checkAge2(18)
-checkAge2(61)
-checkAge2("twenty")
-checkAge2("20")
+checkAge2(17);
+checkAge2(18);
+checkAge2(61);
+checkAge2("twenty");
+checkAge2("20");
 
-console.log("-----------------------------")
+console.log("-----------------------------");
 
 
 // Задание 3**:
@@ -83,11 +83,11 @@ const checkAge3 = function(age) {
     }
 }
 
-checkAge3(20)
-checkAge3("20")
-checkAge3("20years")
+checkAge3(20);
+checkAge3("20");
+checkAge3("20years");
 
-console.log("-----------------------------")
+console.log("-----------------------------");
 
 
 // Задание 4***:
@@ -111,8 +111,8 @@ const checkAge = function(age) {
   }
 }
 
-let agePrompt = prompt('Enter age')
-checkAge(agePrompt)
+let userAge = prompt("Enter user's age");
+checkAge(userAge);
     
 // Для выполнения задания 4***:
 // - создаем файл HW_1x-4.html
